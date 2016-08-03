@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bigDiv {
+  margin: 0 auto;
+  width: 100%;
+}
+#vid {
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9999;
+}
+.full {
+  width: 100%;
+}
+.smaDiv {
+  margin: 0 auto;
+  width: 1224px;
+}
+.twoDiv {
+  height: 440px;
+  background-color: #008000;
+  z-index: 10;
+}
+.twoDiv .oneDiv .leftDiv,
+.twoDiv height 90px .leftDiv,
+.twoDiv background-color red .leftDiv {
+  float: left;
+  width: 148px;
+  height: 32px;
+  margin-top: 32px;
+  margin-right: 73px;
+  background-image: url("../image/1.png");
+}
+.twoDiv .oneDiv .centerDiv,
+.twoDiv height 90px .centerDiv,
+.twoDiv background-color red .centerDiv {
+  float: left;
+  width: 568px;
+  height: 90px;
+  background-color: #ff0;
+}
+.twoDiv .oneDiv .rightDiv,
+.twoDiv height 90px .rightDiv,
+.twoDiv background-color red .rightDiv {
+  float: right;
+  width: 306px;
+  height: 90px;
+  background-color: #00f;
+}
+.threeDiv {
+  margin: 0 auto;
+  width: 1124px;
+  height: 670px;
+  background-color: #fff;
+  z-index: 10;
+}
+.threeDiv .topDiv {
+  display: inline-block;
+  margin: 0 auto;
+  width: 420px;
+  height: 54px;
+  margin-top: 24px;
+  margin-left: 352px;
+  text-align: center;
+}
+.threeDiv .topDiv h2 {
+  font-size: 36px;
+  line-height: 54px;
+}
+.threeDiv .leftDiv {
+  float: left;
+  width: 933px;
+  height: 470px;
+  background-color: #f00;
+}
+.threeDiv .rightDiv {
+  float: right;
+  width: 933px;
+  height: 474px;
+  background-color: #00f;
+}
+.fourDiv {
+  height: 567px;
+  z-index: 10;
+}
+.fourDiv .topDiv {
+  margin: 0 auto;
+  width: 1200px;
+  height: 54px;
+  background-color: #808080;
+}
+.fourDiv .gy {
+  float: left;
+  width: 408px;
+  height: 167px;
+}
+.fourDiv .leftDiv {
+  background-color: #f00;
+}
+.fourDiv .centerDiv {
+  background-color: #ffa500;
+}
+.fourDiv .rightDiv {
+  background-color: #00f;
+}
+.fiveDiv {
+  height: 580px;
+  background-image: url("../image/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.fiveDiv .topDiv {
+  margin: 0 auto;
+  width: 1200px;
+  height: 54px;
+  background-color: #808080;
+}
+.fiveDiv .gy {
+  float: left;
+  width: 408px;
+  height: 175px;
+}
+.fiveDiv .leftDiv {
+  background-color: #f00;
+}
+.fiveDiv .centerDiv {
+  background-color: #ffa500;
+}
+.fiveDiv .rightDiv {
+  background-color: #00f;
+}
+.sixDiv {
+  height: 525px;
+  z-index: 10;
+}
+.sixDiv .gy {
+  margin: 0 auto;
+  width: 1200px;
+}
+.sixDiv .btDiv {
+  height: 54px;
+  background-color: #f00;
+}
+.sixDiv .fbtDiv {
+  height: 64px;
+  background-color: #ff0;
+}
+.sixDiv .gnDiv {
+  height: 160px;
+  background-color: #00f;
+}
+.sixDiv .scDiv {
+  height: 86px;
+  background-color: #ffa500;
+}
+.sevenDiv {
+  height: 398px;
+  background-color: #fff;
+  z-index: 10;
+}
+.sevenDiv .gy {
+  margin: 0 auto;
+  width: 1200px;
+}
+.sevenDiv .btDiv {
+  height: 54px;
+  background-color: #f00;
+}
+.sevenDiv .fbtDiv {
+  height: 48px;
+  background-color: #ff0;
+}
+.sevenDiv .ljDiv {
+  height: 62px;
+  background-color: #008000;
+}
+.eightDiv {
+  height: 208px;
+  background-color: #fff;
+  z-index: 10;
+}
+.eightDiv .gy {
+  margin: 0 auto;
+  width: 1200px;
+}
+.eightDiv .smDiv {
+  height: 31px;
+  background-color: #f00;
+}
+.eightDiv .ljDiv {
+  height: 34px;
+  background-color: #ff0;
+}
+.eightDiv .bqDiv {
+  height: 28px;
+  background-color: #00f;
+}
+.eightDiv .iDiv {
+  height: 37px;
+  background-color: #008000;
+}
+.nineDiv {
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  width: 36px;
+  height: 78px;
+  background-color: #000;
+}
