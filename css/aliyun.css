@@ -25,11 +25,12 @@
 .twoDiv {
   height: 440px;
   background-color: #008000;
-  z-index: 10;
 }
-.twoDiv .oneDiv .leftDiv,
-.twoDiv height 90px .leftDiv,
-.twoDiv background-color red .leftDiv {
+.twoDiv .oneDiv {
+  height: 90px;
+  background-color: #f00;
+}
+.twoDiv .oneDiv .leftDiv {
   float: left;
   width: 148px;
   height: 32px;
@@ -37,17 +38,13 @@
   margin-right: 73px;
   background-image: url("../image/1.png");
 }
-.twoDiv .oneDiv .centerDiv,
-.twoDiv height 90px .centerDiv,
-.twoDiv background-color red .centerDiv {
+.twoDiv .oneDiv .centerDiv {
   float: left;
   width: 568px;
   height: 90px;
   background-color: #ff0;
 }
-.twoDiv .oneDiv .rightDiv,
-.twoDiv height 90px .rightDiv,
-.twoDiv background-color red .rightDiv {
+.twoDiv .oneDiv .rightDiv {
   float: right;
   width: 306px;
   height: 90px;
@@ -55,15 +52,13 @@
 }
 .threeDiv {
   margin: 0 auto;
-  width: 1124px;
   height: 670px;
   background-color: #fff;
-  z-index: 10;
 }
 .threeDiv .topDiv {
   display: inline-block;
   margin: 0 auto;
-  width: 420px;
+  width: 100%;
   height: 54px;
   margin-top: 24px;
   margin-left: 352px;
@@ -80,14 +75,13 @@
   background-color: #f00;
 }
 .threeDiv .rightDiv {
-  float: right;
+  float: left;
   width: 933px;
   height: 474px;
   background-color: #00f;
 }
 .fourDiv {
   height: 567px;
-  z-index: 10;
 }
 .fourDiv .topDiv {
   margin: 0 auto;
@@ -114,7 +108,6 @@
   background-image: url("../image/2.png");
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 10;
 }
 .fiveDiv .topDiv {
   margin: 0 auto;
@@ -138,7 +131,6 @@
 }
 .sixDiv {
   height: 525px;
-  z-index: 10;
 }
 .sixDiv .gy {
   margin: 0 auto;
@@ -163,7 +155,6 @@
 .sevenDiv {
   height: 398px;
   background-color: #fff;
-  z-index: 10;
 }
 .sevenDiv .gy {
   margin: 0 auto;
@@ -184,7 +175,6 @@
 .eightDiv {
   height: 208px;
   background-color: #fff;
-  z-index: 10;
 }
 .eightDiv .gy {
   margin: 0 auto;
